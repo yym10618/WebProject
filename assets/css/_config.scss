@@ -15,3 +15,38 @@ body, h1, h2, h3, h4, h5, h6, p, span, small, ul, li, input, select, textarea, t
     background-color: rgba(0, 0, 0, 0.75);
 }
 
+.shadow-xl{
+    box-shadow: 0 1rem 2.5rem -0.8rem rgba(0, 0, 0, 0.56), 0 0.25rem 1.5rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.75rem -0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.section-content{
+    padding: 4rem 0;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &:before,
+    &:after{
+        content: '';
+        height: 0.15rem;
+        background: #666;
+        flex: 1;
+    }
+
+    &:before{
+        margin: 0 0.45rem 0 0;
+    }
+
+    &:after{
+        margin: 0 0 0 0.45rem;
+    }
+}
+
+#shadow-box{
+    transition: 0.5s ease-in-out;
+}
