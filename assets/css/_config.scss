@@ -23,6 +23,20 @@ body, h1, h2, h3, h4, h5, h6, p, span, small, ul, li, input, select, textarea, t
     padding: 4rem 0;
 }
 
+.bg-purple{
+    background-color: purple;
+}
+
+.text-purple{
+    color: purple;
+}
+
+hr{
+    &.hr-white{
+        border-top: 1px solid #fff;
+    }
+}
+
 .divider{
     display: flex;
     justify-content: center;
