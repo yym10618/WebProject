@@ -1,0 +1,12 @@
+#topBanner{
+    &.banner{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-origin: border-box;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
