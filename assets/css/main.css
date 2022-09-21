@@ -314,4 +314,8 @@ hr.hr-white {
 }
 .communicate-box:hover {
   background-color: rgba(96, 125, 139, 0.9);
+}
+
+.blog #topBanner {
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */
