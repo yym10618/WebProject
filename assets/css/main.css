@@ -16,6 +16,18 @@ body, h1, h2, h3, h4, h5, h6, p, span, small, ul, li, input, select, textarea, t
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+.rgba-blue-gray-slight {
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+.rgba-blue-gray-light {
+  background-color: rgba(96, 125, 139, 0.35);
+}
+
+.rgba-blue-gray-strong {
+  background-color: rgba(96, 125, 139, 0.7);
+}
+
 .shadow-xl {
   box-shadow: 0 1rem 2.5rem -0.8rem rgba(0, 0, 0, 0.56), 0 0.25rem 1.5rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.75rem -0.3rem rgba(0, 0, 0, 0.2);
 }
@@ -58,6 +70,29 @@ hr.hr-white {
 
 #shadow-box {
   transition: 0.5s ease-in-out;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+.form-control:focus {
+  border: 1px solid #9933cc;
+  box-shadow: none;
+}
+
+::-moz-placeholder {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+::placeholder {
+  font-size: 0.85rem;
+  opacity: 0.5;
 }
 
 /* Navbar */
@@ -318,4 +353,18 @@ hr.hr-white {
 
 .blog #topBanner {
   background-position: center;
+}
+
+#cta {
+  background-color: #004d40;
+}
+
+#blog-main .card {
+  margin-bottom: 1.5rem;
+}
+#blog-main .card-footer {
+  background-color: transparent;
+}
+#blog-main aside a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
