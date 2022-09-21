@@ -93,19 +93,6 @@
 
 #page-content{
     &.main{
-        background: #fff;
-        z-index: 3;
-
-        &-raised-square,
-        &-raised-rounded{
-            margin: -60px 30px 0;
-            box-shadow: $content-shadow;
-        }
-
-        &-raised-rounded{
-            border-radius: 6px;
-        }
-
         .page-list{
             a{
                 text-decoration: none;
