@@ -345,13 +345,6 @@ blockquote {
 #page-content.main .page-list a {
   text-decoration: none;
 }
-#page-content.main .widget-group {
-  background-color: rgba(0, 0, 0, 0.35);
-}
-#page-content.main .widget-group:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
 
 .communicate-box {
   background-color: rgba(96, 125, 139, 0.7);
@@ -360,6 +353,14 @@ blockquote {
 }
 .communicate-box:hover {
   background-color: rgba(96, 125, 139, 0.9);
+}
+
+.widget-group {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.widget-group:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .blog #topBanner {

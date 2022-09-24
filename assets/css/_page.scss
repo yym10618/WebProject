@@ -98,15 +98,6 @@
                 text-decoration: none;
             }
         }
-
-        .widget-group{
-            background-color: rgba(0, 0, 0, 0.35);
-
-            &:hover{
-                background-color: rgba(0, 0, 0, 0.7);
-                box-shadow: $content-shadow;
-            }
-        }
     }
 }
 
@@ -117,5 +108,14 @@
 
     &:hover{
         background-color: rgba(96, 125, 139, 0.9);
+    }
+}
+
+.widget-group{
+    background-color: rgba(0, 0, 0, 0.55);
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: $content-shadow;
     }
 }
